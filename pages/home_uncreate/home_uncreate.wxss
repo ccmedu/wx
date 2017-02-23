@@ -1,0 +1,21 @@
+page{
+  background-color: #efeff4;
+}
+
+.img{
+    padding-top: 50px;
+    height: 180px!important;
+    width: 300px;
+    margin-left:30px!important;
+}
+
+.btn{
+    margin: 15px;
+}
+
+.img_customer{
+    height: 66px;
+    width: 58px;
+    float: right;
+    margin-right: 10px;
+}

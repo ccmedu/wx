@@ -1,0 +1,35 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <view class="userinfo-nickname">{{userInfo.nickName}}</view>
+    <view class="phonecheck"> 
+    <input placeholder="请输入电话号码" class="phonenum"/>
+    <button class="checknumbutton"> 验证 </button>
+    </view>
+  </view>
+
+  <view class="companyInfo">
+    <view class="company">
+        <text class="companyname">公司</text>
+        <input placeholder="请输入公司名称" class="cname"/>
+    </view>
+    <view class="position">
+        <text class="positionname">职务</text>
+        <input placeholder="请输入职务" class="pname"/>
+    </view>
+    <view class="email">
+        <text class="emailname">邮箱</text>
+        <input placeholder="123456@qq.com" class="ename"/>
+    </view>
+  </view>
+  <view class="moreInfo">
+        <text class="morename">更多</text>
+        <textarea placeholder="让你的微信好有能更了解你" auto-focus class="mname"/>
+  </view>
+  <view class="create">
+ <button class="createbtn" type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}" disabled="{{disabled}}" bindtap="primary"> 
+    创建 
+ </button>
+ </view>
+</view>

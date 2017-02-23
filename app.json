@@ -1,0 +1,15 @@
+{
+  "pages":[
+    "pages/home_create/home_create",
+    "pages/home_uncreate/home_uncreate",
+    "pages/index/index",
+    "pages/logs/logs"
+   
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+  
+    "navigationBarTextStyle":"black"
+  }
+}

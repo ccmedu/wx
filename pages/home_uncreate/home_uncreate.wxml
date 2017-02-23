@@ -1,0 +1,16 @@
+<!--index.wxml-->
+<view class="container">
+
+  <view class="userinfo">
+  <image src="../image/meiyoumingpian.png" class="img"></image>
+ </view>
+ <view class="btn">
+  <button class="createbtn" type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}" disabled="{{disabled}}" bindtap="primary"> 
+    去做一张 
+ </button>
+ </view>
+   <view class="customer">
+   
+  <image src="../image/lianxikefu.png" class="img_customer"></image>
+ </view>
+</view>
